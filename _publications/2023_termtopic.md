@@ -4,9 +4,8 @@ collection: publications
 permalink: /publication/2023_termtopic
 excerpt: ''
 date: 17 March 2023
-venue: 'Proceedings of the 45th European Conference on Information Retrieval, ECIR, Dublin, Ireland'
-# paperurl: 'https://hal.science/hal-03011890/document'
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+venue: 'Advances in Information Retrieval: 45th European Conference on Information Retrieval, ECIR 2023, Dublin, Ireland'
+citation: 'Lila Boualili and Andrew Yates. Advances in Information Retrieval: 45th European Conference on Information Retrieval, ECIR 2023, Dublin, Ireland, April 2–6, 2023, Proceedings, Part II'
 ---
 
 <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-28238-6_25" target="_blank">

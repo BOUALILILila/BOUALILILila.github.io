@@ -4,9 +4,8 @@ collection: publications
 permalink: /publication/2020_markedbert
 excerpt: ''
 date: 25 July 2020
-venue: 'Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR, Virtual, China'
-# paperurl: 'https://hal.science/hal-03011890/document'
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+venue: 'Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ''20), Xi''an, China'
+citation: 'Lila Boualili, Jose G. Moreno, and Mohand Boughanem. Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ''20), Xi''an, China, July 25–30, 2020'
 ---
 
 <a href="https://hal.science/hal-03011890/document" target="_blank">

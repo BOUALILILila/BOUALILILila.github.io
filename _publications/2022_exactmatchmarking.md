@@ -4,9 +4,8 @@ collection: publications
 permalink: /publication/2022_exactmatchmarking
 excerpt: ''
 date: 06 August 2022
-venue: 'Information Retrieval Journal 25, 414-460'
-# paperurl: 'https://hal.science/hal-03011890/document'
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+venue: 'Information Retrieval Journal 25 (4), 414-460'
+citation: 'Lila Boualili, Jose G. Moreno, and Mohand Boughanem. Information Retrieval Journal 25 (4), 414-460'
 ---
 
 <a href="https://link.springer.com/article/10.1007/s10791-022-09414-x" target="_blank">

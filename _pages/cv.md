@@ -20,17 +20,20 @@ redirect_from:
    </thead>
    <tbody>
       <tr>
-        <td>University of Toulouse III - Paul Sabatier</td>
+        <td>IRIT Laboratory, University of Paul Sabatier Toulouse</td>
         <td>Toulouse, France</td>
       </tr>
       <tr>
-         <td colspan="2">- <b>Thesis Topic</b> Deep Learning for Information retrieval</td>
+         <td colspan="2">- <b>Thesis Topic</b> Studying Relevant Signals for Document Retrieval using Transformer Models</td>
+      </tr>
+      <tr>
+         <td colspan="2">- <b>Highlights</b> Enhancing, fine-tuning, and evaluating encoder models for ad hoc retrieval based on cross-encoder and dual-encoder architectures, using single-vector and multi-vector representations, using direct supervision or distillation from teacher models.</td>
       </tr>
       <tr>
          <td colspan="2">- <b>Advisors</b> Jose G.Moreno, Mohand Boughanem</td>
       </tr>
       <tr>
-         <td colspan="2">- <b>Area of study</b> Deep Learning, Information Retrieval (IR), and Natural Language Processing (NLP)</td>
+         <td colspan="2">- <b>Area of study</b> Deep Learning, Information Retrieval, and Natural Language Processing</td>
       </tr>
    </tbody>
 </table>
@@ -38,7 +41,7 @@ redirect_from:
 <table class="heatMap">
    <thead>
       <tr>
-         <th><i class="fa fa-graduation-cap"></i> Master's degree in Computer Science</th>
+         <th><i class="fa fa-graduation-cap"></i> Master's degree in Computer Science and Engineering</th>
          <th>2018-2019</th>
       </tr>
    </thead>
@@ -48,13 +51,13 @@ redirect_from:
         <td>Algiers, Algeria</td>
       </tr>
       <tr>
-         <td colspan="2">- <b>Thesis Topic</b> Real-Time Tweet Summarization</td>
+         <td colspan="2">- <b>Thesis Topic</b> Real Time Tweet Summarization</td>
       </tr>
       <tr>
          <td colspan="2">- <b>Advisors</b> Lynda Said Lhadj, Mohand Boughanem</td>
       </tr>
       <tr>
-         <td colspan="2">- <b>Area of study</b> Deep Learning, Information Retrieval (IR), and Natural Language Processing (NLP)</td>
+         <td colspan="2">- <b>Area of study</b> Deep Learning, Information Retrieval, and Natural Language Processing</td>
       </tr>
    </tbody>
 </table>
@@ -62,7 +65,7 @@ redirect_from:
 <table class="heatMap">
    <thead>
       <tr>
-         <th><i class="fa fa-graduation-cap"></i> Engineering degree in Computer Science</th>
+         <th><i class="fa fa-graduation-cap"></i> Engineering degree in Computer Science and Engineering (Valedictorian)</th>
          <th>2014-2019</th>
       </tr>
    </thead>
@@ -76,29 +79,16 @@ redirect_from:
       </tr>
    </tbody>
 </table>
-<!-- <i class="fa fa-graduation-cap"></i> Ph.D in Computer Science, University of Toulouse III - Paul Sabatier, 2019-2022
-:   **Thesis Topic** Deep Learning for Information retrieval
-:   **Advisors** Jose G.Moreno, Mohand Boughanem
-:   **Area of study** Deep Learning, Information Retrieval (IR), and Natural Language Processing (NLP) -->
 
 
-<!-- <i class="fa fa-graduation-cap"></i> Master's degree in Computer Science and Engineering, Higher National School of Computer Science (ESI), 2018-2019
-:   **Thesis Topic** Real-Time Tweet Summarization
-:   **Advisors** Lynda Said Lhadj, Mohand Boughanem 
-:   **Area of study** Deep Learning, Information Retrieval (IR), and Natural Language Processing (NLP) -->
-
-
-<!-- <i class="fa fa-graduation-cap"></i> Engineering degree in Computer Science, Higher National School of Computer Science (ESI), 2014-2019
-:   Majored in Information Systems & Software -->
-
-## Work experience
+## Experience
 ***
 
 <table class="heatMap">
    <thead>
       <tr>
-         <th><i class="fa fa-briefcase"></i> Data Scientist, NLP Specialist </th>
-         <th>October 2023, present</th>
+         <th><i class="fa fa-briefcase"></i> Data Scientist </th>
+         <th>Oct. 2023 – present</th>
       </tr>
    </thead>
    <tbody>
@@ -108,12 +98,63 @@ redirect_from:
       </tr>
       <tr>
          <td colspan="2">
-            Designing no-code solutions powered by Generative AI agents to streamline task orchestration in cybersecurity operations.
             <ul>
-               <li> Designed and deployed stateful multi-agent systems leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), enabling seamless natural language interactions with over 3,000 API integrations. [Patent Pending]</li>
-               <li> Evaluated different retrieval approaches for RAG experimenting with sparse, dense, and hybrid models to improve retrieval accuracy and reduce latency.</li>
-               <li> Studied various multi-agent workflows, including collaboration through shared memory and hierarchical agent interactions to enhance scalability and reduce cost.</li>
-               <li> Designed an evaluation framework for assessing the planning and tool-use capabilities of LLMs, ensuring high-quality performance and decision-making in complex scenarios. </li>
+               <li>Designed and deployed a production-grade multi-agent orchestration engine for workflow automation, enabling natural-language interaction with 4000+ API integrations and custom agents. [Patent Pending]</li>
+               <li>Mitigated operational risk with a security-first execution layer featuring credential-scoped tool execution, human-in-the-loop (HITL) approval gates for high-stakes API actions, and full execution traceability.</li>
+               <li>Engineered a hierarchical orchestration engine with long-term memory and RAG-based tool discovery, enabling the system to handle complex, multi-turn tasks while minimizing context bloat.</li>
+               <li>Developed data augmentation pipelines for API documentation and tool metadata, generating provider-specific agent skills and improving tool retrieval quality.</li>
+               <li>Designed an evaluation framework to benchmark LLM planning and tool-use capabilities across standard and edge-case scenarios, enabling regression testing and model drift monitoring over time.</li>
+            </ul>
+            <p><b>STACK:</b> AWS Cloud, Amazon Bedrock, OpenAI, Gemini, Mistral, LiteLLM, RAG, multi-agent orchestration.</p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-briefcase"></i> Postdoc Research Fellowship </th>
+         <th>Dec. 2022 – Sept. 2023</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+        <td><a href="https://www.liglab.fr/en"> LIG, University of Grenoble Alps </a> </td>
+        <td>Grenoble, France</td>
+      </tr>
+      <tr>
+         <td colspan="2">
+            <ul>
+               <li>Investigated systematic compositional generalization in transformer-based seq2seq models by incorporating syntactic structure into the decoding process through hyperbolic representations of dependency trees.</li>
+               <li>Designed, trained, and evaluated a hybrid Euclidean–Hyperbolic transformer architecture for structure-aware sequence generation.</li>
+            </ul>
+            <p><b>STACK:</b> Transformers, Fairseq, PyTorch, Geoopt.</p>
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+### Research internships
+
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-briefcase"></i> A Study of Term-Topic Embeddings </th>
+         <th>June 2021 – Feb. 2022</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+        <td><a href="https://www.mpi-inf.mpg.de/home"> Max Planck Institute for Informatics (MPI) </a> </td>
+        <td>Saarbrücken, Germany</td>
+      </tr>
+      <tr>
+         <td colspan="2">
+            <b>Advisor</b> Andrew Yates
+            <ul>
+               <li> Studied advancements with the ColBERT architecture, which relies on token-level representations with late interactions for document ranking.</li>
+               <li> Proposed a novel approach for distilling ColBERT’s contextualized token embeddings into a more explicit and principled process by aggregating a finite set of frozen, pre-trained term-topic embeddings, with each term-topic capturing a contextual topic of a token.</li>
             </ul>
          </td>
       </tr>
@@ -123,45 +164,8 @@ redirect_from:
 <table class="heatMap">
    <thead>
       <tr>
-         <th><i class="fa fa-briefcase"></i> PostDoc Researcher in NLP </th>
-         <th>December 2022, September 2023</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-        <td><a href="https://www.liglab.fr/en"> LIG, University of Grenoble Alps </a> </td>
-        <td>Grenoble, France</td>
-      </tr>
-      <tr>
-         <td colspan="2"> Enhancing the systematic compositional generalization capabilities of sequence-to-sequence (seq2seq) models by integrating structural (syntactic) information into the decoding process through hyperbolic representations of dependency trees.</td>
-      </tr>
-   </tbody>
-</table>
-
-<table class="heatMap">
-   <thead>
-      <tr>
-         <th><i class="fa fa-briefcase"></i> Researcher in NLP/IR</th>
-         <th>June 2021, January 2022</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-        <td><a href="https://www.mpi-inf.mpg.de/home"> Max Plank Institute (MPI) for Informatics </a> </td>
-        <td>Saarbrücken, Germany</td>
-      </tr>
-      <tr>
-         <td colspan="2">Studied advancements with the ColBERT architecture, which relies on token-level representations with late interactions for document ranking. 
-Proposed a novel approach for distilling ColBERT’s contextualized token embeddings into a more explicit and principled process by aggregating a finite set of frozen, pre-trained term-topic embeddings, with each term-topic capturing a contextual topic of a token.</td>
-      </tr>
-   </tbody>
-</table>
-
-<table class="heatMap">
-   <thead>
-      <tr>
-         <th><i class="fa fa-briefcase"></i> Researcher in NLP/IR</th>
-         <th>December 2018, September 2019</th>
+         <th><i class="fa fa-briefcase"></i> Research on Microblog Retrieval and Summarization </th>
+         <th>Dec. 2018 – July 2019</th>
       </tr>
    </thead>
    <tbody>
@@ -170,24 +174,69 @@ Proposed a novel approach for distilling ColBERT’s contextualized token embedd
         <td>Toulouse, France</td>
       </tr>
       <tr>
-         <td colspan="2">Development of a tweet summarization approach based on Deep Learning Models. Manipulation of various state-of-the-art Models for both tweet representation and relevance estimation of tweets with respect to users' interests.</td>
+         <td colspan="2">
+            <b>Advisor</b> Mohand Boughanem
+            <ul>
+               <li> Development of a tweet summarization approach based on Deep Learning Models. Manipulation of various state-of-the-art Models for both tweet representation and relevance estimation of tweets with respect to users' interests.</li>
+            </ul>
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+## Projects
+***
+
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-code"></i> <a href="https://github.com/BOUALILILila/DeepResearchPy">DeepResearchPy</a></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>A Python package for automated deep query investigation, adapted from JinaAI's node-deepsearch, it iteratively searches, reads, and reasons across the web until finding a satisfactory answer or reaching a token budget limit.</td>
+      </tr>
+   </tbody>
+</table>
+
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-code"></i> <a href="https://github.com/BOUALILILila/SciWatch">SciWatch</a></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>A Python package that delivers scheduled newsletters with relevant scientific papers, using boolean retrieval for query matching.</td>
+      </tr>
+   </tbody>
+</table>
+
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-code"></i> <a href="https://github.com/BOUALILILila/HybridSeq2Seq">HybridSeq2Seq</a></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Transformer-based Euclidean-hyperbolic hybrid seq2seq model for COGS semantic parsing, leveraging hyperbolic embeddings to capture hierarchical structures and enhance compositional generalization.</td>
       </tr>
    </tbody>
 </table>
   
 ## Skills
 ***
-<i class="fa fa-code"></i> **Coding** Python, C, Typescript, JavaScript and PL/SQL
+<i class="fa fa-code"></i> **Programming** Python, TypeScript, Rust
 
-<i class="fa fa-book"></i> **Libraries** Pytorch, TensorFlow, Sickit-learn, Transformers, Sentence-Transformers, Faiss, fairseq
+<i class="fa fa-book"></i> **Libraries** Pytorch, TensorFlow, Sickit-learn, Transformers, Sentence-Transformers, Langchain, Fairseq
 
 <i class="fa fa-laptop"></i> **Operating Systems** Microsoft Windows, Linux and other UNIX variants
 
-<i class="fa fa-code-branch"></i> **Version Control** Github
+<i class="fa fa-sync"></i> **Agile Methodologies** Scrum and Kanban
 
-<i class="fa fa-sync"></i> **Agile Methodologies** Scrum, Kanban
-
-<i class="fa fa-language"></i> **Languages** English (native), French (native), Arabic (professional), Kabyle (native)
+<i class="fa fa-language"></i> **Languages** French (native), English (professional), Arabic (professional), Kabyle (native)
 
 ## Publications
 ***
@@ -209,10 +258,9 @@ Proposed a novel approach for distilling ColBERT’s contextualized token embedd
   
 ## Hobbies
 ***
-<i class="fa fa-camera-retro" aria-hidden="true"></i> Photography |
-<i class="fa fa-book-open"></i> Reading | 
-<i class="fa fa-palette"></i>  Drawing | 
-<i class="fa fa-microchip"></i>  Electronics
+<i class="fa fa-book-open"></i> Avid reader with a strong interest in Lovecraftian literature.
+
+<i class="fa fa-palette"></i> I enjoy drawing and I am exploring photography as a new creative outlet.
 
 ***
 <a href="/files/Boualili_cv.pdf" target="_blank">

@@ -4,9 +4,8 @@ collection: publications
 permalink: /publication/2022_thesis
 excerpt: ''
 date: 23 November 2022
-venue: 'theses.fr'
-# paperurl: 'https://hal.science/hal-03011890/document'
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+venue: 'Université Paul Sabatier-Toulouse III'
+citation: 'Thesis, Université Paul Sabatier-Toulouse III'
 ---
 <a href="https://theses.hal.science/tel-03969050/file/2022TOU30188a.pdf" target="_blank">
    <button class="btn" ><i class="fa fa-file-download"></i> Download Paper </button>

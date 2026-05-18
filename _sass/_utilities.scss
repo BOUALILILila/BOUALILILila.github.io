@@ -472,32 +472,143 @@ a.reversefootnote {
 
 
 .heatMap {
-        border: 1px solid transparent;
-        background-color: hsla(0, 0%, 0%, 0);
-    }
+  width: 100%;
+  margin-bottom: 1.25em;
+  border-collapse: collapse;
+  border: 1px solid transparent;
+  background-color: transparent;
 
-.heatMap th{
-  font-size: 18px;
-}
-
-.heatMap td{
-  font-size: 16px;
-  padding: 0em;
-  padding-left: 2em;
-}
-
-
-.heatMap * {
-      border: 1px solid transparent;
-      background-color: hsla(0, 0%, 0%, 0);
+  th,
+  td {
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 0.25em 0;
+    vertical-align: top;
+    text-align: left;
   }
 
-.heatMap th:last-child, .heatMap tr:nth-child(1) td:last-child {
-        text-align: right;
-        font-size: 15px;
-        color: grey;
-    }
+  th {
+    font-size: 18px;
+    font-weight: bold;
 
-.heatMap tr:nth-child(1) td:first-child {
+    &:last-child:not(:only-child) {
+      text-align: right;
+      font-size: 15px;
+      font-weight: normal;
+      color: grey;
+    }
+  }
+
+  td {
+    font-size: 16px;
+    padding-left: 0;
+  }
+
+  tbody tr:first-child td {
+    &:first-child {
       font-weight: bold;
+    }
+
+    &:last-child:not(:only-child) {
+      text-align: right;
+      font-size: 15px;
+      font-weight: normal;
+      color: grey;
+    }
   }
+
+  td[colspan="2"] {
+    ul {
+      margin: 0.5em 0 0;
+      padding-left: 1.25em;
+    }
+
+    p {
+      margin: 0.5em 0 0;
+    }
+  }
+}
+
+.cv-page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 1.5em;
+
+  .page__title {
+    margin-bottom: 0;
+  }
+}
+
+.cv-page {
+  h2 {
+    margin-top: 1.75em;
+    margin-bottom: 0.75em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $border-color;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  h3 {
+    margin: 1.25em 0 0.5em;
+    font-size: $type-size-4;
+    font-weight: bold;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .cv-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > .list__item {
+      padding-right: 0;
+    }
+
+    .archive__item-title {
+      margin: 0.75em 0 0.25em;
+      font-size: $type-size-5;
+      border-bottom: none;
+    }
+
+    > .list__item:first-child .archive__item-title {
+      margin-top: 0;
+    }
+
+    .archive__item-excerpt {
+      margin: 0 0 0.5em;
+    }
+  }
+
+  .cv-skills,
+  .cv-hobbies {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin-bottom: 0.5em;
+      padding-left: 0;
+    }
+  }
+
+  .cv-hobbies {
+    list-style: disc;
+    padding-left: 1.25em;
+  }
+
+  .cv-skills .fa {
+    display: inline-block;
+    width: 1.25em;
+    text-align: center;
+    margin-right: 0.35em;
+  }
+}

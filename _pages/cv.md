@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: cv
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -9,81 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-## Education
-***
-<table class="heatMap">
-   <thead>
-      <tr>
-         <th><i class="fa fa-graduation-cap"></i> Ph.D in Computer Science</th>
-         <th>2019-2022</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-        <td>IRIT Laboratory, University of Paul Sabatier Toulouse</td>
-        <td>Toulouse, France</td>
-      </tr>
-      <tr>
-         <td colspan="2">- <b>Thesis Topic</b> Studying Relevant Signals for Document Retrieval using Transformer Models</td>
-      </tr>
-      <tr>
-         <td colspan="2">- <b>Highlights</b> Enhancing, fine-tuning, and evaluating encoder models for ad hoc retrieval based on cross-encoder and dual-encoder architectures, using single-vector and multi-vector representations, using direct supervision or distillation from teacher models.</td>
-      </tr>
-      <tr>
-         <td colspan="2">- <b>Advisors</b> Jose G.Moreno, Mohand Boughanem</td>
-      </tr>
-      <tr>
-         <td colspan="2">- <b>Area of study</b> Deep Learning, Information Retrieval, and Natural Language Processing</td>
-      </tr>
-   </tbody>
-</table>
-
-<table class="heatMap">
-   <thead>
-      <tr>
-         <th><i class="fa fa-graduation-cap"></i> Master's degree in Computer Science and Engineering</th>
-         <th>2018-2019</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-        <td>Higher National School of Computer Science (ESI)</td>
-        <td>Algiers, Algeria</td>
-      </tr>
-      <tr>
-         <td colspan="2">- <b>Thesis Topic</b> Real Time Tweet Summarization</td>
-      </tr>
-      <tr>
-         <td colspan="2">- <b>Advisors</b> Lynda Said Lhadj, Mohand Boughanem</td>
-      </tr>
-      <tr>
-         <td colspan="2">- <b>Area of study</b> Deep Learning, Information Retrieval, and Natural Language Processing</td>
-      </tr>
-   </tbody>
-</table>
-
-<table class="heatMap">
-   <thead>
-      <tr>
-         <th><i class="fa fa-graduation-cap"></i> Engineering degree in Computer Science and Engineering (Valedictorian)</th>
-         <th>2014-2019</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-        <td>Higher National School of Computer Science (ESI)</td>
-        <td>Algiers, Algeria</td>
-      </tr>
-      <tr>
-         <td colspan="2">Majored in Information Systems & Software</td>
-      </tr>
-   </tbody>
-</table>
-
-
 ## Experience
 ***
-
 <table class="heatMap">
    <thead>
       <tr>
@@ -153,8 +80,8 @@ redirect_from:
          <td colspan="2">
             <b>Advisor</b> Andrew Yates
             <ul>
-               <li> Studied advancements with the ColBERT architecture, which relies on token-level representations with late interactions for document ranking.</li>
-               <li> Proposed a novel approach for distilling ColBERT’s contextualized token embeddings into a more explicit and principled process by aggregating a finite set of frozen, pre-trained term-topic embeddings, with each term-topic capturing a contextual topic of a token.</li>
+               <li>Studied advancements with the ColBERT architecture, which relies on token-level representations with late interactions for document ranking.</li>
+               <li>Proposed a structured distillation approach for ColBERT contextualized token embeddings using aggregated frozen pre-trained term-topic embeddings representing token-level contextual semantics.</li>
             </ul>
          </td>
       </tr>
@@ -177,16 +104,77 @@ redirect_from:
          <td colspan="2">
             <b>Advisor</b> Mohand Boughanem
             <ul>
-               <li> Development of a tweet summarization approach based on Deep Learning Models. Manipulation of various state-of-the-art Models for both tweet representation and relevance estimation of tweets with respect to users' interests.</li>
+               <li>Developed a tweet summarization pipeline leveraging deep learning models for semantic tweet representation and relevance ranking with respect to user interests.</li>
             </ul>
          </td>
       </tr>
    </tbody>
 </table>
 
+## Education
+***
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-graduation-cap"></i> Ph.D in Computer Science</th>
+         <th>2019-2022</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+        <td>IRIT Laboratory, University of Paul Sabatier Toulouse</td>
+        <td>Toulouse, France</td>
+      </tr>
+      <tr>
+         <td colspan="2">- <b>Thesis Topic</b> Studying Relevant Signals for Document Retrieval using Transformer Models</td>
+      </tr>
+      <tr>
+         <td colspan="2">- <b>Highlights</b> Enhancing, fine-tuning, and evaluating encoder models for ad hoc retrieval based on cross-encoder and dual-encoder architectures, using single-vector and multi-vector representations, using direct supervision or distillation from teacher models.</td>
+      </tr>
+      <tr>
+         <td colspan="2">- <b>Area of study</b> Deep Learning, Information Retrieval, and Natural Language Processing</td>
+      </tr>
+   </tbody>
+</table>
+
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-graduation-cap"></i> Master's degree in Computer Science and Engineering</th>
+         <th>2018-2019</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+        <td>Higher National School of Computer Science (ESI)</td>
+        <td>Algiers, Algeria</td>
+      </tr>
+      <tr>
+         <td colspan="2">- <b>Area of study</b> Deep Learning, Information Retrieval, and Natural Language Processing</td>
+      </tr>
+   </tbody>
+</table>
+
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-graduation-cap"></i> Engineering degree in Computer Science and Engineering (Valedictorian)</th>
+         <th>2014-2019</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+        <td>Higher National School of Computer Science (ESI)</td>
+        <td>Algiers, Algeria</td>
+      </tr>
+      <tr>
+         <td colspan="2">Majored in Information Systems & Software</td>
+      </tr>
+   </tbody>
+</table>
+
 ## Projects
 ***
-
 <table class="heatMap">
    <thead>
       <tr>
@@ -225,45 +213,65 @@ redirect_from:
       </tr>
    </tbody>
 </table>
-  
+
 ## Skills
 ***
-<i class="fa fa-code"></i> **Programming** Python, TypeScript, Rust
-
-<i class="fa fa-book"></i> **Libraries** Pytorch, TensorFlow, Sickit-learn, Transformers, Sentence-Transformers, Langchain, Fairseq
-
-<i class="fa fa-laptop"></i> **Operating Systems** Microsoft Windows, Linux and other UNIX variants
-
-<i class="fa fa-sync"></i> **Agile Methodologies** Scrum and Kanban
-
-<i class="fa fa-language"></i> **Languages** French (native), English (professional), Arabic (professional), Kabyle (native)
+<ul class="cv-skills">
+  <li><i class="fa fa-code" aria-hidden="true"></i> <strong>Programming</strong> Python, TypeScript</li>
+  <li><i class="fa fa-book" aria-hidden="true"></i> <strong>Libraries</strong> Pytorch, Transformers, LangChain, LangGraph</li>
+  <li><i class="fa fa-laptop" aria-hidden="true"></i> <strong>Operating Systems</strong> Linux and other UNIX variants, Microsoft Windows</li>
+  <li><i class="fa fa-sync" aria-hidden="true"></i> <strong>Agile Methodologies</strong> Scrum and Kanban</li>
+  <li><i class="fa fa-language" aria-hidden="true"></i> <strong>Languages</strong> French (Native), English (Full Professional Proficiency)</li>
+</ul>
 
 ## Publications
 ***
-  <ul>{% for post in site.publications %}
+<ul class="cv-list">{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul> -->
-  
+
 ## Teaching
 ***
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-chalkboard-teacher"></i> Data Structures and Fundamental Algorithms</th>
+         <th>Nov. 2019 – 2021</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+        <td>University of Toulouse III - Paul Sabatier</td>
+        <td>Toulouse, France</td>
+      </tr>
+      <tr>
+         <td colspan="2">Undergraduate course (Semester I), taught in French.</td>
+      </tr>
+   </tbody>
+</table>
+
+<table class="heatMap">
+   <thead>
+      <tr>
+         <th><i class="fa fa-chalkboard-teacher"></i> Database Programming and administration</th>
+         <th>Mar. 2020 – 2021</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+        <td>University of Toulouse III - Paul Sabatier</td>
+        <td>Toulouse, France</td>
+      </tr>
+      <tr>
+         <td colspan="2">Undergraduate course (Semester II), taught in French.</td>
+      </tr>
+   </tbody>
+</table>
+
 ## Hobbies
 ***
-<i class="fa fa-book-open"></i> Avid reader with a strong interest in Lovecraftian literature.
-
-<i class="fa fa-palette"></i> I enjoy drawing and I am exploring photography as a new creative outlet.
-
-***
-<a href="/files/Boualili_cv.pdf" target="_blank">
-   <button class="btn" ><i class="fa fa-file-download"></i> Download Resume </button>
-</a>
-<!-- download="boualili_resume" -->
+<ul class="cv-hobbies">
+  <li>Reading and gaming (with a strong interest in horror)</li>
+  <li>Drawing and photography</li>
+  <li>Bouldering</li>
+</ul>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive cv-page">
+    <div class="cv-page-header">
+      <h1 class="page__title">{{ page.title }}</h1>
+      <a href="{{ '/files/Boualili_cv.pdf' | relative_url }}" target="_blank" class="btn">
+        <i class="fa fa-file-download" aria-hidden="true"></i> Download Resume
+      </a>
+    </div>
+    {{ content }}
+  </div>
+</div>
